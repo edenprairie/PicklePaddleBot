@@ -22,7 +22,7 @@ describe('Verify Account Link and Prepare for Login', () => {
         //cy.get('.planner-date-btn-next').click();
         //cy.get(':nth-child(6) > [data-testid="plannerDate"] > .planner-date-day > .planner-date-number').click();
 
-        cy.visit('https://my.lifetime.life/account/reservations.html?resourceId=ZXhlcnA6N2JyMzQwMTo3MDE1OTExNDE1MDg=&start=2024-12-18T20:00:00-06:00&duration=60&cancelUrl=aHR0cHM6Ly9teS5saWZldGltZS5saWZlL2NsdWJzL21uL2Jsb29taW5ndG9uLW5vcnRoL3Jlc291cmNlLWJvb2tpbmcuaHRtbD9zcG9ydD1QaWNrbGViYWxsJTNBK0luZG9vciZjbHViSWQ9NyZkYXRlPTIwMjQtMTItMDgmc3RhcnRUaW1lPS0xJmR1cmF0aW9uPTMwJmhpZGVNb2RhbD10cnVl');
+        cy.visit('https://my.lifetime.life/account/reservations.html?resourceId=ZXhlcnA6N2JyMzQwMTo3MDE1OTExNDE1MDg=&start=2024-12-08T20:00:00-06:00&duration=60&cancelUrl=aHR0cHM6Ly9teS5saWZldGltZS5saWZlL2NsdWJzL21uL2Jsb29taW5ndG9uLW5vcnRoL3Jlc291cmNlLWJvb2tpbmcuaHRtbD9zcG9ydD1QaWNrbGViYWxsJTNBK0luZG9vciZjbHViSWQ9NyZkYXRlPTIwMjQtMTItMDgmc3RhcnRUaW1lPS0xJmR1cmF0aW9uPTMwJmhpZGVNb2RhbD10cnVl');
         cy.get('.c-indicator')
             .should('be.visible') // Verify it is visible
             .click();
