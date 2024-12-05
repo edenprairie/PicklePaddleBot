@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "npm install"
+    "build": "npm install",
+    "start": "npx cypress run --config video=false"
   },
   "dependencies": {
     "cypress": "^9.4.1"
