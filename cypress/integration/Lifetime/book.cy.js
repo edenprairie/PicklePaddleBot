@@ -14,9 +14,9 @@ describe('Book Pickleball court from Bloomington North', () => {
         // For example:
         cy.get('.js-login-link').click();
         cy.log('line3');
-        cy.get('.login-username-group').type('junwang01@gmail.com');
+        cy.get('.login-username-group').type('username');
         cy.log('line4');
-        cy.get('.login-password-group').type('EOt*1JUI67Sva$');
+        cy.get('.login-password-group').type('password');
         cy.log('line5');
         cy.get('.btn-wrap').click();
         cy.log('line6');
